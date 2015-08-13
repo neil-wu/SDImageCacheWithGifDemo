@@ -45,3 +45,20 @@ if imgurlstring.hasSuffix(".gif") {
 }
 ```
 For more details, just download the project. :]
+
+-----------------
+
+2015-08-14 updated:
+
+1. SDWebImage was updated to 3.7.3
+
+2. Now use `SDWebImageDownloader.sharedDownloader().downloadImageWithURL` to do the download operation.
+ Use `SDWebImageManager.sharedManager().imageCache.storeImage` to manually cache the downloaded image data.
+
+3. Add a `clean cache button` in storyboard. 
+
+
+
+
+
+
